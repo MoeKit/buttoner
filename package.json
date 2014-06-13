@@ -1,0 +1,35 @@
+{
+  "name": "buttoner",
+  "version": "0.0.1",
+  "description": "button status handler",
+  "keywords": [],
+  "homepage": "https://github.com/lizheng/buttoner",
+  "author": "airyland",
+  "maintainers": [
+    "airyland"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lizheng/buttoner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lizheng/buttoner/issues"
+  },
+  "licenses": "MIT",
+  "spm": {
+    "main": "index.js",
+    "dependencies": {
+      "spinner": "2.0.1",
+      "jquery": "1.8.3",
+      "events": "1.2.0"
+    },
+    "devDependencies": {
+      "expect.js": "0.3.1",
+      "seajs": "2.2.1"
+    },
+    "engines": {
+      "seajs": "2.2.1"
+    },
+    "tests": "tests/*.js"
+  }
+}
